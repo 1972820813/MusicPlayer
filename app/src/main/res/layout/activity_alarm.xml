@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@color/status_color"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:padding="10dp"
+            android:src="@drawable/title_back"
+            android:id="@+id/alarm_title_back"
+            android:layout_width="46dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="13dp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/alarm_title_back"
+            android:text="音乐闹铃"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/alarm_tv_time"
+            android:paddingLeft="13dp"
+            android:gravity="center_vertical"
+            android:textSize="30sp"
+            android:text="17:30"
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+
+        <ImageView
+            android:id="@+id/alarm_iv_on"
+            android:paddingRight="13dp"
+            android:paddingLeft="13dp"
+            android:src="@drawable/togglebutton_off"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <View
+        android:background="#efefef"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <RelativeLayout
+        android:id="@+id/alarm_rl_sing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="13dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="铃声"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+        <TextView
+            android:gravity="center"
+            android:text="小秘书早安铃声"
+            android:id="@+id/alarm_iv_name"
+            android:paddingRight="13dp"
+            android:paddingLeft="13dp"
+            android:src="@drawable/togglebutton_off"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="50dp" />
+
+    </RelativeLayout>
+    <View
+        android:background="#efefef"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <RelativeLayout
+        android:id="@+id/alarm_rl_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="13dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="重复"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+        <ImageView
+            android:id="@+id/alarm_iv_again_on"
+            android:paddingRight="13dp"
+            android:paddingLeft="13dp"
+            android:src="@drawable/togglebutton_off"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="50dp" />
+
+    </RelativeLayout>
+    <View
+        android:background="#efefef"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:layout_marginTop="13dp"
+        android:paddingLeft="13dp"
+        android:text="@string/alarm_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

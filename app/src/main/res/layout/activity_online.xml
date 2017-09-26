@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@color/status_color"
+        android:id="@+id/search_rl_search"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:padding="10dp"
+            android:src="@drawable/title_back"
+            android:id="@+id/online_title_back"
+            android:layout_width="46dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="13dp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/online_title_back"
+            android:text="在线听歌免流量"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/online_wb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
