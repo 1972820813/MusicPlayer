@@ -16,7 +16,6 @@ import com.keeasy.musicplayer.other.ui.BaseFragment;
 import java.util.ArrayList;
 import java.util.List;
 
-
 /**
  * 音乐列表页面
  * <p>
