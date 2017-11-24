@@ -29,6 +29,8 @@
         <activity android:name=".other.activity.OnLineActivity"/>
         <activity android:name=".other.activity.MyFriendActivity"/>
     <activity android:name=".other.activity.AlarmActivity"/>
+        <activity android:name=".other.activity.MyMessageActivity"/>
+
 
     </application>
 

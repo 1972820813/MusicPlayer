@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <ImageView
+        android:id="@+id/item_iv_header"
+        android:scaleType="fitXY"
+        android:src="@drawable/head_logo"
+        android:layout_width="100dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/item_tv_jingpin"
+        android:layout_toRightOf="@id/item_iv_header"
+        android:layout_margin="2dp"
+        android:textColor="#ef9125"
+        android:text="精品课"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_toRightOf="@id/item_tv_jingpin"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="13dp"
+        android:textSize="16sp"
+        android:text="努力让自己更出色"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/item_tv_jingpin"
+        android:layout_toRightOf="@id/item_iv_header"
+        android:id="@+id/item_tv_name"
+        android:layout_marginTop="4dp"
+        android:text="洪杰雯"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/item_iv_header"
+        android:text="123456"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

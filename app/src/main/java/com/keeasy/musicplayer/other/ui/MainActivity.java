@@ -28,6 +28,7 @@ import com.keeasy.musicplayer.music_more.ui.MusicMoreFragment;
 import com.keeasy.musicplayer.other.activity.AlarmActivity;
 import com.keeasy.musicplayer.other.activity.MemberCenterActivity;
 import com.keeasy.musicplayer.other.activity.MyFriendActivity;
+import com.keeasy.musicplayer.other.activity.MyMessageActivity;
 import com.keeasy.musicplayer.other.activity.OnLineActivity;
 import com.keeasy.musicplayer.other.activity.ShoppingActivity;
 import com.keeasy.musicplayer.other.util.ActionBarManagerTool;
@@ -148,6 +149,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
         if (id == R.id.nav_message) {
             Toast.makeText(this, "我的消息", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(this, MyMessageActivity.class));
         } else if (id == R.id.nav_member_center) {
             startActivity(new Intent(this,MemberCenterActivity.class));
             Log.d(TAG, "会员中心");

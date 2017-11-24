@@ -5,7 +5,7 @@ import com.keeasy.musicplayer.other.ui.BaseFragment;
 
 /**
  * 粉丝
- * Created by Administrator on 2017/8/7.
+ * Created by lcw on 2017/8/7.
  */
 
 public class FansFragment  extends BaseFragment{
